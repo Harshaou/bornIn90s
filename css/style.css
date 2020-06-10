@@ -8416,6 +8416,16 @@ textarea.form-control {
     text-transform: uppercase;
     letter-spacing: .1em; }
 
+
+    .block-20-a {
+      overflow: hidden;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 300px;
+      position: relative;
+      display: block; }
+
 .block-20 {
   overflow: hidden;
   background-size: cover;
