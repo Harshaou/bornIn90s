@@ -8426,6 +8426,11 @@ textarea.form-control {
       position: relative;
       display: block; }
 
+      .logo-love{
+        width: 25px;
+        padding-bottom: 5px;
+      }
+
 .block-20 {
   overflow: hidden;
   background-size: cover;
