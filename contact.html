@@ -84,10 +84,11 @@
           <div class="col-md-3">
             <p><span>Website</span> <a href="#">bornin90s.com</a></p>
           </div>
-          
         </div>
-        <!-- <div class="row block-9">
-          <div class="col-md-6 pr-md-5">
+
+
+        <div class="row block-9">
+          <!-- <div class="col-md-6 pr-md-5">
             <form data-netlify-recaptcha="true" name="contact" method="POST" data-netlify="true" >
               <div class="form-group">
                 <input type="text" class="form-control" name="name" placeholder="Your Name">
@@ -109,24 +110,20 @@
           </div>
           </div> -->
 
+          
           <form name="contact" method="POST" data-netlify="true">
-            <p>
-              <label>Your Name: <input type="text" name="name" /></label>   
+            <p class="form-group">
+              <label>Your Name: <input class="form-control" type="text" name="name" /></label>   
             </p>
-            <p>
-              <label>Your Email: <input type="email" name="email" /></label>
+            <p class="form-group">
+              <label>Your Email: <input class="form-control" type="email" name="email" /></label>
             </p>
-            <p>
-              <label>Your Role: <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-              </select></label>
+            
+            <p class="form-group">
+              <label>Message: <textarea class="form-control" name="message"></textarea></label>
             </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
+            <p class="form-group">
+              <button class="btn btn-primary py-3 px-5" type="submit">Send</button>
             </p>
           </form>
 
@@ -134,6 +131,9 @@
             <h3>Bornin90s is compltely remote with no offices</h3>
           </div>
         </div>
+      
+
+
       </div>
     </section>
 
