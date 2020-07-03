@@ -108,6 +108,44 @@ font-size: 4rem;
 color: #fff;
   }
 
+  .imgdiv{
+    height: 300px;
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    border-radius: 20px;
+  }
+
+  .tools-logo{
+    margin: 25px;
+  }
+
+  .know-more-p{
+    margin-left: 40%;
+    margin-top: 30px;
+    
+  }
+
+  .know-more{
+    background-color: black;
+  }
+
+  .know-more:hover{
+    background-color: rgb(226, 110, 168);
+  }
+  .know-span{
+    color: white
+    }
+
+.know-span:hover{
+color: black;
+}
+  .backimg{
+    background-image: url("../images/logo/name.png");
+  height: 100px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  }
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -129,6 +167,7 @@ abbr[data-original-title] {
   text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0; }
+
 
 address {
   margin-bottom: 1rem;
